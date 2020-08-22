@@ -1,0 +1,31 @@
+{
+    "name": "paanblogger/feedbackable",
+    "description": "Feedbackable Polymorphic Eloquent Models for Laravel",
+    "keywords": [
+        "laravel",
+        "framework",
+        "Laravel-Feedbackable",
+        "Laravel Feedbackable"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohd Farhan Firdaus Jamil",
+            "email": "paanblogger@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Paanblogger\\Feedbackable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Paanblogger\\Feedbackable\\FeedbackableServiceProvider"
+            ]
+        }
+    }
+}
